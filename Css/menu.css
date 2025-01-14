@@ -1,0 +1,16 @@
+.main-menu{
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.movie{
+    height: 317.25px;
+    width: 211.5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
