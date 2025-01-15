@@ -1,0 +1,16 @@
+Footer{
+    margin-top: 35px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #9c9c9c;
+
+    height: 35px;
+}
