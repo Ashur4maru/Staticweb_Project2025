@@ -8,6 +8,8 @@
     padding-right: 25px;
     background-color: paleturquoise;
 
+    flex: 1;
+
     display: flex;
     flex-wrap: wrap;
     gap: 20px;

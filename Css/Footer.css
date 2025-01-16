@@ -1,6 +1,13 @@
-.foot-container{
-
+.footer-container{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative; 
+    bottom: 0;
+    width: 100%;
 }
 .tekst-footer{
-    
+    margin: 0;
+    font-size: 14px;
 }

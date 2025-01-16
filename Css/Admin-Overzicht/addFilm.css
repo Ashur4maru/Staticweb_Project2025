@@ -11,6 +11,7 @@
     border-radius: 10px;
     max-width: 600px;
     
+    
 }
 
 
@@ -77,16 +78,16 @@ button{
 }
 
 
-/* Responsive: réduire la taille des inputs sur petits écrans */
+
 @media (max-width: 600px) {
     .box input {
-        flex: 1 1 calc(50% - 10px); /* Ajuste pour 2 inputs par ligne */
+        flex: 1 1 calc(50% - 10px); 
     }
 }
 
 @media (max-width: 400px) {
     .box input {
-        flex: 1 1 100%; /* Un input par ligne */
+        flex: 1 1 100%; 
     }
 }
 
