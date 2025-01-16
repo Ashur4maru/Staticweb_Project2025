@@ -1,5 +1,5 @@
 header {
-    background-color: #0182ad;
+    background-color: #21202d;
     height: 55px;
     display: flex;
     flex-direction: row;
@@ -10,7 +10,7 @@ header {
     right: 0;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #0182ad;
+    border-bottom-color: #21202d;
 }
 a{
     text-decoration: none;
@@ -40,30 +40,9 @@ ul {
 
 .middle-section {
     flex: 1;
-    margin-left: 70px;
-    margin-right: 35px;
-    max-width: 500px;
     display: flex;
+    justify-content: center; 
     align-items: center;
-}
-
-.search-bar {
-    flex: 1;
-    height: 36.5px;
-    padding-left: 10px;
-    font-size: 16px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #0182ad;
-    border-radius: 15px;
-    width: 100%;
-}
-
-.right-section {
-    display: flex;
-    align-items: center;
-    gap: 10px; 
-    padding-right: 10px;
 }
 
 .MoviegZ-name {
@@ -71,17 +50,25 @@ ul {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    margin: 0;
 }
+
+.right-section {
+    width: 180px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
 
 .user-icon img {
     width: 30px;
     height: 30px;
-    border-radius: 50%; /* Rendre l'icône ronde */
+    border-radius: 50%;
     cursor: pointer;
     transition: transform 0.3s;
 }
 
 .user-icon img:hover {
-    transform: scale(1.1); /* Effet d'agrandissement au survol */
+    transform: scale(1.1);
 }
