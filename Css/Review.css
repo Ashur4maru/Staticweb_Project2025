@@ -1,0 +1,80 @@
+.review-container{
+    display: flex;
+    flex-direction: row;
+
+    background-color: paleturquoise;
+
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+}
+.picture-review{
+    display: flex;
+    height: 600px;
+    width: 400px;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+
+}
+.review-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+
+    height: 50%;
+}
+.review-bonus{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+
+    height: 100%;
+}
+.avis{
+    padding: 5px;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+.meining-bar{
+    display: flex;
+    font-size: 15px;
+    width: 100%;
+    margin-right: 5%;
+
+}
+.input-naam{
+    font-size: 15px;
+    width: 30%;
+}
+.input-container{
+    display: flex;
+    margin-bottom: 5px;
+}
+.button-publiceren{
+    background-color: #0182ad;
+    border: solid 1px #0182ad;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
