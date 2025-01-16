@@ -1,0 +1,92 @@
+.container-addf{
+    background-color: #21202d;
+    
+
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    padding: 20px;
+    border: 1px solid #21202d;
+    border-radius: 10px;
+    max-width: 600px;
+    
+}
+
+
+.container-addf input {
+    flex: 1 1 calc(20% - 10px); 
+    min-width: 100px; 
+    padding: 10px;
+    border: 1px solid #5a5496;
+    border-radius: 5px;
+    box-sizing: border-box; 
+
+}
+
+.file-upload {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+}
+
+
+.file-upload input[type="file"] {
+    display: none;
+}
+
+
+.custom-button {
+    display: inline-block;
+    background-color: #6a63af;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #5a5496;
+}
+
+
+.file-name {
+    font-size: 14px;
+    color: #ffff;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    height: 30px;
+    width: 100px;
+
+    border: solid 5px ;
+    border-color: #21202d;
+    background-color: #21202d;
+    color: #ffff;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+
+/* Responsive: réduire la taille des inputs sur petits écrans */
+@media (max-width: 600px) {
+    .box input {
+        flex: 1 1 calc(50% - 10px); /* Ajuste pour 2 inputs par ligne */
+    }
+}
+
+@media (max-width: 400px) {
+    .box input {
+        flex: 1 1 100%; /* Un input par ligne */
+    }
+}
+

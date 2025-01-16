@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/Login/header-login.css">
-    <link rel="stylesheet" href="Css/Login/login.css">
-    <title>Login/Admin</title>
+    <link rel="stylesheet" href="Css/Admin-Overzicht/addFilm.css">
+    <link rel="stylesheet" href="Css/Admin-Overzicht/general-admin.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
@@ -20,28 +21,32 @@
         <div class="middle-section">
             <a href="indedx.html">
                 <h2 class="MoviegZ-name">MoviegZ</h2>
+            <a/>
         </div>
         <div class="right-section">
             <a href="login.html" class="user-icon">
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQBJREFUSEvFlIsNwjAMRO82gU3oJjAJ7SSwCd2EbmI4qan6SxyaVliqVCnRPftimzg4eLA+sgBmdgJwB3D9fh2AFkBDUv/JcAFmdgHwWlGR+I2kYNHIAbwBqIK16EieNwPMTJY8HBeqVBXJCsxMvtcOoCbZxO54gJj/Yz29w3MrQN7rgY95A2WV6CIdJ/3XBbeLekiYA1mmCC1aPgfeIHnnWRV4IiVzoDaVLcGasVZYGRq239q0f1gNWKx75klH18bCIqdrPLcWXbUGSO0eD7DYTRNA5mrwIJPVMQfIdy24kmhJVkFgDiixJ2hObJoDrCT1IWty0P3voO1SzR4iKY0PORhbGfr3O+kAAAAASUVORK5CYII="/>            </a>
         </div>
     </header>
-    
-    <div class="login-box">       
-            <div class="login">
-                <h1>Login</h1>
-            </div>
-            <div class="input-box">
-                <input type="text" placeholder="Username" class="input-bar">
-            </div>
-            <div class="input-box">
-                <input type="password" placeholder="Password" class="input-bar">
-            </div>
-            <div class="submit-btn">
-                <a href="filmoverzicht.html">
-                <button>Sing In</button>
-            </div>
-    </div>
+        <div class="container-addf">
+            <input type="text" placeholder="naam">
+            <input type="text" placeholder="duur">
+            <input type="text" placeholder="jaar">
+            <input type="text" placeholder="cast">
+            <div class="file-upload">
+                <label for="file-input" class="custom-button">Kies bestand</label>
+                <input type="file" id="file-input" />
+                <span class="file-name">Geen bestand geselecteerd </span>
+            </div> 
+
+        </div>
+        <div class="back">
+            <button>Add film</button>
+            <a href="filmoverzicht.html"><button>Back</button></a>
+            
+        </div>
+
+        
     
 </body>
 </html>
